@@ -3,6 +3,15 @@
 
 # --------------------1) Create a method that takes in a number and determines if the number is even or odd. Use the test variables provided.
 
+def evenOrOdd 
+    if value.even?
+        'even'
+    else !value.even?
+        'odd'
+    end
+end
+
+
 num1 = 7
 # Expected output: '7 is odd'
 num2 = 42

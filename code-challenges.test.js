@@ -15,6 +15,9 @@
 // a) Create a test with an expect statement using the variable provided.
 // HINT: Check out this resource: https://jestjs.io/docs/expect#expectarraycontainingarray
 
+
+// for my test I need to create a function that is going to take an array and .slice my first index into a differentArray. Then, I want my function to iterate the differentArray by randomazing the index into a newArray and returning the newArray
+
 const colors1 = ["purple", "blue", "green", "yellow", "pink"]
 // Expected output example (can be a different order): ["yellow", "blue", "pink", "green"]
 const colors2 = [
@@ -31,6 +34,8 @@ const colors2 = [
 
 // --------------------2) Create a function that takes in an object that contains up votes and down votes and returns the end tally.
 
+// create a function with Object.value that would subtranct downVotes from upVotes. 
+
 // a) Create a test with expect statements for each of the variables provided.
 
 const votes1 = { upVotes: 13, downVotes: 2 }
@@ -42,6 +47,9 @@ const votes2 = { upVotes: 2, downVotes: 33 }
 
 // --------------------3) Create a function that takes in two arrays as arguments and returns one array with no duplicate values. STRETCH: Use the spread operator to pass in a dynamic number of arguments.
 
+// create a function that takes the two arrays, then concatenate the first array and the second, within the .concat method, run .filter on the second array's values and if the index of any values from array 2 is less than zero in the first array.
+
+
 // a) Create a test with an expect statement using the variables provided.
 
 const dataArray1 = ["array", "object", "number", "string", "Boolean"]
@@ -49,3 +57,7 @@ const dataArray2 = ["string", "null", "Boolean", "string", "undefined"]
 // Expected output: ["array", "object", "number", "string", "Boolean", "null", "undefined"]
 
 // b) Create the function that makes the test pass.
+
+const mergeArrays = (array1, array2) =>{
+ return array1.concat(array2.filter((value) => array1.indexOf(value) < 0))
+} 
