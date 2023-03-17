@@ -40,12 +40,12 @@ my_hash[key]
 
 ## Looking Ahead: Terms for Next Week
 
-1. Class Inheritance:
+1. Class Inheritance: a class carrying behaviour from another class
 
-2. RSpec:
+2. RSpec: is the testing tool for Ruby, just like Yarn test if for JavaScript
 
-3. CRUD:
+3. CRUD: Create, Read, Update, Destroy
 
-4. Test-driven development:
+4. Test-driven development: A process of running code through a tester before deployment.
 
-5. HTTP:
+5. HTTP: Hypertext Transfer Protocol, helps load webpages and with the communications between webpages and web servers
